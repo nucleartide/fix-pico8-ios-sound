@@ -4,7 +4,7 @@ Fix sound when playing PICO-8 games on iOS
 
 ## Motivation
 
-[PICO-8](https://www.lexaloffle.com/pico-8.php) is a game creation tool that allows you to export your game as JavaScript for browser play. While this works beautifully on desktop browsers, it doesn't work as well on iOS Safari, where sound doesn't work.\* This is a darn shame, because playing a PICO-8 game on iOS is otherwise extremely slick – try [pico8_html_template](https://github.com/headjump/pico8_html_template) on an iPhone for a demonstration.
+[PICO-8](https://www.lexaloffle.com/pico-8.php) is a game creation tool that allows you to export your game as JavaScript for browser play. While this works beautifully on desktop browsers, it doesn't work as well on iOS Safari, where sound doesn't work.\* This is a darn shame, because playing a PICO-8 game on iOS is otherwise extremely slick – try [Dennis Treder's pico8_html_template](https://github.com/headjump/pico8_html_template) on an iPhone for a demonstration.
 
 It turns out that sound doesn't work because iOS mutes Web Audio until the user interacts with the page. As a workaround, [Paul Bakaus](https://paulbakaus.com/tutorials/html5/web-audio-on-ios/) recommends adding a "tap to play" button to your game. The script provided by this repo demonstrates how to do so. You should use the script as a starting point for your own "tap to play" customization.
 
