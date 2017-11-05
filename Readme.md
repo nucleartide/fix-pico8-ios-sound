@@ -51,5 +51,6 @@ Feel free to open an [issue](https://github.com/nucleartide/fix-pico8-ios-sound/
 > <a href="https://twitter.com/nucleartide">
 >   <img width="100" src="https://user-images.githubusercontent.com/914228/32412070-c4ca8fa0-c1c2-11e7-93c7-e39e46c1fcb4.png">
 > </a>
+> <br><br>
 >
 > GitHub [@nucleartide](https://github.com/nucleartide) · Twitter [@nucleartide](https://twitter.com/nucleartide)
