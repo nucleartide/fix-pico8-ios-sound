@@ -3,6 +3,7 @@
   // fetch original file name
   var s = document.scripts[document.scripts.length - 1]
   var file = s.getAttribute('data-original-file')
+  if (!file) throw new Error('Missing data-original-file attribute.')
 
   // strip vendor prefixes
   window.AudioContext = window.AudioContext
